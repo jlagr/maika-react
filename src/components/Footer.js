@@ -1,10 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ContactForm from './ContactForm'
+import logo from '../images/logo.png';
+import facebook from '../images/facebook.png';
+import instagram from '../images/instagram.png';
+import twitter from '../images/twitter.png';
+import youtube from '../images/youtube.png';
 
-function Footer( { includeContact } ) {
-
-    const rootPath = includeContact ? '' : '../../';
+const Footer = ( { includeContact } ) => {
 
     return (
         <footer className="container-fluid">
@@ -13,7 +16,7 @@ function Footer( { includeContact } ) {
                     {/* Footer left */}
                     <div className="col-md-3 footer1 d-flex" style={{ marginTop: '20px', marginBottom: '50px'}}>
                         <div className="d-flex flex-wrap align-content-center">
-                            <a href="/"><img src = {rootPath + 'images/logo.png'} alt="logo" /></a>
+                            <a href="/"><img src = { logo } alt="logo" /></a>
                             <p>Teatro de titeres, objetos y todos los recursos en las artes escenicas</p>
                             &copy; 2021 MaikaTeatro.com Todos los Derechos Reservados.<br></br>
                             Diseño y Programación: &nbsp;
@@ -37,22 +40,22 @@ function Footer( { includeContact } ) {
                             <ul className="nav nav-item">
                                 <li>
                                     <a href="https://www.facebook.com/maika.teatro" className="btn btn-secondary mr-1 mb-2" target="_blank" rel="noreferrer">
-                                        <img src= {rootPath + 'images/facebook.png'} alt="facebook" />
+                                        <img src= { facebook } alt="facebook" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="https://instagram.com/maikateatro?igshid=1vu509hm48z0" className="btn btn-secondary mr-1 ml-1 mb-2" target="_blank" rel="noreferrer">
-                                        <img src={rootPath + 'images/instagram.png'} alt="instagram" />
+                                        <img src={ instagram } alt="instagram" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="https://www.youtube.com/channel/UCId2Foo_ovfKUe34ARI5_Lw" className="btn btn-secondary mr-1 ml-1 mb-2" target="_blank" rel="noreferrer">
-                                        <img src={rootPath + 'images/youtube.png'} alt="youtube" />
+                                        <img src={ youtube } alt="youtube" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="https://twitter.com/MaikaTeatro?s=09"  className="btn btn-secondary mr-1 ml-1 mb-2" target="_blank" rel="noreferrer">
-                                        <img src={rootPath + 'images/twitter.png'} alt="twitter" />
+                                        <img src={ twitter } alt="twitter" />
                                     </a>
                                 </li>
                             </ul>

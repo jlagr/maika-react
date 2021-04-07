@@ -1,14 +1,16 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll'
+import logo from '../images/logo.png';
+import paikam_banner from '../images/paikam_banner.jpg'
 
 const Navbar = () => {
     return (
-        <div className="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src="images/paikam_banner.jpg">
+        <div className="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src={ paikam_banner }>
             <nav className="navbar navbar-expand-md navbar-dark">
                 <div className="container"> 
                     {/* Brand   */}
-                    <a className="navbar-brand mr-auto" href="/"><img src="images/logo.png" alt="MaikaTeatro" /></a> 
+                    <a className="navbar-brand mr-auto" href="/"><img src={ logo } alt="MaikaTeatro" /></a> 
                     
                     {/* Toggler/collapsibe Button  */}
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span className="navbar-toggler-icon"></span> </button>

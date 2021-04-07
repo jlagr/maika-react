@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import about_us_bg from '../images/about-us-bg.jpg';
 
 function Compania() {
     return (
-        <div id="compania" className="container-fluid fh5co-about-us pl-0 pr-0 parallax-window" data-parallax="scroll" data-image-src="images/about-us-bg.jpg">
+        <div id="compania" className="container-fluid fh5co-about-us pl-0 pr-0 parallax-window" data-parallax="scroll" data-image-src={ about_us_bg }>
             <div className="container">
                 <div className="col-sm-6 offset-sm-6">
                 <h2 className="wow bounceInLeft" data-wow-delay=".25s">La compañía</h2>

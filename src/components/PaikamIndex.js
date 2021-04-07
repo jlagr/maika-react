@@ -15,7 +15,6 @@ function PaikamIndex() {
                     </div>
                     <div className="col-md-6">
                         <figure className="wow bounceInDown"> 
-                            {/* <img src="images/about-img.jpg" alt="gym" className="img-fluid" style={{marginTop: '-30px'}}/>  */}
                             <iframe 
                                 className="img-fluid" 
                                 style={{marginTop: '-30px', height: '315px'}}
