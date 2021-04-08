@@ -8,6 +8,7 @@
                 animateClass: 'animated',
                 offset:       150,
                 callback:     function(box) {
+                    return;
                     console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
                 }
             }

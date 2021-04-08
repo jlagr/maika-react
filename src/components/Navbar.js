@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll'
 import logo from '../images/logo.png';
-import paikam_banner from '../images/paikam_banner.jpg'
+import paikam_banner from '../images/paikam_banner.jpg';
 
 const Navbar = () => {
     return (
