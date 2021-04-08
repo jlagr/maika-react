@@ -47,7 +47,7 @@ export const obras = [
             }
 
         ],
-        'mainImg':'images/paikam_1.jpg',
+        'mainImg':'/images/paikam_1.jpg',
         'imgPos': 'down',
         'video': 'https://www.youtube.com/embed/OfjEo-lIOdk',
         'gallery': [
@@ -123,7 +123,7 @@ export const obras = [
                 'name': 'Alfredo Payán'
             }
         ],
-        'mainImg':'../../images/ofelia_1.jpg',
+        'mainImg':'/images/ofelia_1.jpg',
         'imgPos': 'up',
         'gallery': [
             {
