@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://jlagr.github.io/maika-react/static/css/main.8c337913.chunk.css",
-    "main.js": "https://jlagr.github.io/maika-react/static/js/main.fddad9ff.chunk.js",
-    "main.js.map": "https://jlagr.github.io/maika-react/static/js/main.fddad9ff.chunk.js.map",
+    "main.js": "https://jlagr.github.io/maika-react/static/js/main.68f4f250.chunk.js",
+    "main.js.map": "https://jlagr.github.io/maika-react/static/js/main.68f4f250.chunk.js.map",
     "runtime-main.js": "https://jlagr.github.io/maika-react/static/js/runtime-main.1f59efe6.js",
     "runtime-main.js.map": "https://jlagr.github.io/maika-react/static/js/runtime-main.1f59efe6.js.map",
     "static/js/2.9dce7ce6.chunk.js": "https://jlagr.github.io/maika-react/static/js/2.9dce7ce6.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.1f59efe6.js",
     "static/js/2.9dce7ce6.chunk.js",
     "static/css/main.8c337913.chunk.css",
-    "static/js/main.fddad9ff.chunk.js"
+    "static/js/main.68f4f250.chunk.js"
   ]
 }

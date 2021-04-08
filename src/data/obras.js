@@ -218,7 +218,7 @@ export const obras = [
                 'name': 'Diego Alonso Payán'
             }
         ],
-        'mainImg':'../../images/pintor_1.jpg',
+        'mainImg':'/images/pintor_1.jpg',
         'imgPos': 'down',
         'gallery': [
             {
@@ -296,7 +296,7 @@ export const obras = [
                 'name': 'Alfredo Payán, Iván Romo y Sara Don'
             }
         ],
-        'mainImg':'../../images/circo_1.jpg',
+        'mainImg':'/images/circo_1.jpg',
         'imgPos': 'up',
         'gallery': [
             {
@@ -351,7 +351,7 @@ export const obras = [
                 'name': 'Noé Castro y Said Ramos'
             }       
         ],
-        'mainImg':'images/principe_1.jpg',
+        'mainImg':'/images/principe_1.jpg',
         'imgPos': 'down',
         'video': 'https://www.youtube.com/embed/rwNevRlBcpM',
         'gallery': [
@@ -402,7 +402,7 @@ export const obras = [
                 'name': 'Ana Castillo, Jaime Contreras y Alfredo Payán'
             }         
         ],
-        'mainImg':'../../images/puente_1.jpg',
+        'mainImg':'/images/puente_1.jpg',
         'imgPos': 'up',
         'gallery': [
             {
