@@ -10,7 +10,7 @@ import PageRouter from './PageRouter'
 
 const AppRouter = () => {
     return (        
-        <Router>
+        <Router basename="/maika-react">
             <div>
                 <Switch>
                     <Route exact path="/" component= { MineScreen } />                       

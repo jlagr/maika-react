@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import { getInternacionales, getNacionales } from '../selectors/festivalesSelector'
 import Festival from './Festival';
 
