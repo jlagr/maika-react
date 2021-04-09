@@ -1,8 +1,16 @@
 import React from 'react'
+import background from '../images/negro-large-bg.jpg';
+import imgInicio from '../images/inicio.jpg';
+import imgPrincipeNieve from '../images/principe-nieve.jpg';
+import imgPaikamArbol from '../images/paikam-arbol.jpg';
+import imgThumbGusano from '../images/thumbnail-gusano.jpg';
+import imgThumbGorgonia from '../images/thumbnail-gorgonia.jpg';
+import imgThumbPintor from '../images/thumbnail-pintor.jpg';
+import pdfTrayectoria from '../trayectoria.pdf';
 
 function CompaniaScreen() {
     return (
-        <div className="container-fluid fh5co-network" data-parallax="scroll" data-image-src="../../images/negro-large-bg.jpg"
+        <div className="container-fluid fh5co-network" data-parallax="scroll" data-image-src={ background }
         style={{marginTop: '-100px'}}
         >
             <div className="container">
@@ -15,7 +23,7 @@ function CompaniaScreen() {
                     </div>
                     <div className="col-md-6">
                         <figure className="wow bounceInDown" style={{marginTop: '10px !importat'}}> 
-                            <img src="./../images/inicio.jpg" alt="gym" className="img-fluid" /> 
+                            <img src = { imgInicio } alt="gym" className="img-fluid" /> 
                         </figure>
                     </div>
                 </div>
@@ -36,7 +44,7 @@ function CompaniaScreen() {
             <div className="container-fluid fh5co-content-box" style={{backgroundImage: 'none'}}>
                 <div className="container">
                 <div className="row">
-                    <div className="col-md-5 pr-0"><img src="../../images/principe-nieve.jpg" alt="gym" className="img-fluid wow bounceInLeft" /> </div>
+                    <div className="col-md-5 pr-0"><img src={ imgPrincipeNieve } alt="gym" className="img-fluid wow bounceInLeft" /> </div>
                         <div className="col-md-7 pl-0">
                             <div className="wow bounceInRight" data-wow-delay=".25s">
                                 <div className="card-img-overlay">
@@ -49,7 +57,7 @@ function CompaniaScreen() {
                                         PECDA 2008
                                     </p>
                                 </div>
-                                <img src="../../images/paikam-arbol.jpg" alt="paikam" className="img-fluid" /> 
+                                <img src={ imgPaikamArbol } alt="paikam" className="img-fluid" /> 
                             </div>
                         </div>
                     </div> 
@@ -57,24 +65,24 @@ function CompaniaScreen() {
                     <div className="row gallery" style={{marginTop: '30px', marginBottom: '30px'}}>
                         <div className="col-md-4">
                             <div className="card">        
-                                <img className="card-img-top img-fluid wow bounceInRight"  src="../../images/thumbnail-gusano.jpg" alt='gusano'/> 
+                                <img className="card-img-top img-fluid wow bounceInRight"  src={ imgThumbGusano } alt='gusano'/> 
                             </div> 
                         </div> 
                         <div className="col-md-4">                   
                             <div className="card">        
-                                <img className="card-img-top img-fluid wow bounceInDown"  src="../../images/thumbnail-gorgonia.jpg" alt='gorgonia'/>
+                                <img className="card-img-top img-fluid wow bounceInDown"  src={imgThumbGorgonia} alt='gorgonia'/>
                             </div> 
                         </div> 
                         <div className="col-md-4">                   
                             <div className="card">        
-                                <img className="card-img-top img-fluid wow bounceInLeft"  src="../../images/thumbnail-pintor.jpg" alt='pintor'/> 
+                                <img className="card-img-top img-fluid wow bounceInLeft"  src={imgThumbPintor} alt='pintor'/> 
                             </div>
                         </div>ß
                     </div>
 
                     <div className="row">
                     <div className="col-md-12">
-                        <a href="../../trayectoria.pdf" className="btn btn-secondary mr-1 mb-2" target="_blank" rel="noreferrer">
+                        <a href={pdfTrayectoria} className="btn btn-secondary mr-1 mb-2" target="_blank" rel="noreferrer">
                             Trayectoria y reconocimientos (pdf)...
                         </a>
                     </div>

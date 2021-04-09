@@ -53,42 +53,42 @@ export const obras = [
         'gallery': [
             {
                 'id': 'paikam01',
-                'url': '../../images/paikam01.jpg',
+                'url': '/images/paikam01.jpg',
                 'description': 'Inspirado en el origen mitológico de Durango desde la cosmogonía Tepehuana, Maika Teatro presenta: “Pai´kam”, un espectáculo de títeres, danza, sombras y objetos para jóvenes y adultos, basado en “La leyenda de Sahuatoba” y “La montaña de plata” historias que hablan del surgimiento de la raza humana y del nacimiento del cerro de Mercado, que dio pié a la fundación de Durango y de la primera fundidora de hierro, no sólo del país, sino de toda América Latina.'
             },
             {
                 'id': 'paikam02',
-                'url': '../../images/paikam02.jpg',
+                'url': '/images/paikam02.jpg',
                 'description': 'Pai´kam surge como resultado del Programa de formación para nuevos titiriteros en Durango.'
             },
             {
                 'id': 'paikam03',
-                'url': '../../images/paikam03.jpg',
+                'url': '/images/paikam03.jpg',
                 'description': '<h5>Proyecto apoyado por el Programa Creadores Escénicos, FONCA 2019.</h5>'
             },
             {
                 'id': 'paikam_thumb_01',
-                'url': '../../images/paikam_thumb_01.jpg'
+                'url': '/images/paikam_thumb_01.jpg'
             },
             {
                 'id': 'paikam_thumb_02',
-                'url': '../../images/paikam_thumb_02.jpg'
+                'url': '/images/paikam_thumb_02.jpg'
             },
             {
                 'id': 'paikam_thumb_03',
-                'url': '../../images/paikam_thumb_03.jpg'
+                'url': '/images/paikam_thumb_03.jpg'
             },
             {
                 'id': 'paikam_thumb_04',
-                'url': '../../images/paikam_thumb_04.jpg'
+                'url': '/images/paikam_thumb_04.jpg'
             },
             {
                 'id': 'paikam_thumb_05',
-                'url': '../../images/paikam_thumb_05.jpg'
+                'url': '/images/paikam_thumb_05.jpg'
             },
             {
                 'id': 'paikam_thumb_06',
-                'url': '../../images/paikam_thumb_06.jpg'
+                'url': '/images/paikam_thumb_06.jpg'
             }
         ]
     },
@@ -128,42 +128,42 @@ export const obras = [
         'gallery': [
             {
                 'id': 'ofelia_01',
-                'url': '../../images/ofelia_01.jpg',
+                'url': '/images/ofelia_01.jpg',
                 'description': 'Cuando el teatro cerró, ni ella misma imaginaría la aventura que le esperaba, acompañada de seres misteriosos salidos de los rincones más profundos del teatro: las sombras.'
             },
             {
                 'id': 'ofelia_02',
-                'url': '../../images/ofelia_02.jpg',
+                'url': '/images/ofelia_02.jpg',
                 'description': 'Maika Teatro recrea a través del universo surrealista de los títeres y el teatro de sombras una delicada y fantástica historia inspirada en el cuento de Michael Ende: El teatro de sombras de Ofelia.',
             },
             {
                 'id': 'ofelia_03',
-                'url': '../../images/ofelia_03.jpg',
+                'url': '/images/ofelia_03.jpg',
                 'description': ''
             },
             {
                 'id': 'ofelia_thumb_01',
-                'url': '../../images/ofelia_thumb_01.jpg',
+                'url': '/images/ofelia_thumb_01.jpg',
             },
             {
                 'id': 'ofelia_thumb_02',
-                'url': '../../images/ofelia_thumb_02.jpg',
+                'url': '/images/ofelia_thumb_02.jpg',
             },
             {
                 'id': 'ofelia_thumb_03',
-                'url': '../../images/ofelia_thumb_03.jpg',
+                'url': '/images/ofelia_thumb_03.jpg',
             },
             {
                 'id': 'ofelia_thumb_04',
-                'url': '../../images/ofelia_thumb_04.jpg',
+                'url': '/images/ofelia_thumb_04.jpg',
             },
             {
                 'id': 'ofelia_thumb_05',
-                'url': '../../images/ofelia_thumb_05.jpg',
+                'url': '/images/ofelia_thumb_05.jpg',
             },
             {
                 'id': 'ofelia_thumb_06',
-                'url': '../../images/ofelia_thumb_06.jpg',
+                'url': '/images/ofelia_thumb_06.jpg',
             }
         ]
     },
@@ -223,29 +223,29 @@ export const obras = [
         'gallery': [
             {
                 'id': 'pintor01',
-                'url': '../../images/pintor01.jpg',
+                'url': '/images/pintor01.jpg',
                 'description': 'A través de un espectáculo de títeres de mesa, llevamos a escena “El Pintor de Mariposas” de Rafael Santos Torroella, gracias al apoyo del Programa Creadores Escénicos 2013.'
             },
             {
                 'id': 'pintor02',
-                'url': '../../images/pintor02.jpg',
+                'url': '/images/pintor02.jpg',
                 'description': ''
             },
             {
                 'id': 'pintor_01',
-                'url': '../../images/pintor_thumb_01.jpg'
+                'url': '/images/pintor_thumb_01.jpg'
             },
             {
                 'id': 'pintor_02',
-                'url': '../../images/pintor_thumb_02.jpg'
+                'url': '/images/pintor_thumb_02.jpg'
             },
             {
                 'id': 'pintor_03',
-                'url': '../../images/pintor_thumb_03.jpg'
+                'url': '/images/pintor_thumb_03.jpg'
             },
             {
                 'id': 'pintor_04',
-                'url': '../../images/pintor_thumb_04.jpg'
+                'url': '/images/pintor_thumb_04.jpg'
             }
         ]
     },
@@ -301,26 +301,26 @@ export const obras = [
         'gallery': [
             {
                 'id': 'circo_1',
-                'url': '../../images/circo01.jpg',
+                'url': '/images/circo01.jpg',
                 'description': 'El circo de la muerte es un espectáculo de títeres y teatro negro.'
             },
             {
                 'id': 'circo_2',
-                'url': '../../images/circo_2.jpg',
+                'url': '/images/circo_2.jpg',
                 'description': 'Valiéndose del legendario arte del circo y tomando elementos representativos del folclor mexicano, se lleva a escena un trabajo de ilusiones visuales, donde la Muerte, acompañada por un gusano, recrea a los personajes clásicos del circo: desde el payaso, un fallido mago, el vendedor de golosinas, el zanquero, un despistado domador...'
             },
             {
                 'id': 'circo_3',
-                'url': '../../images/circo_3.jpg',
+                'url': '/images/circo_3.jpg',
                 'description': 'De esta manera Maika Teatro rinde homenaje a una de las tradiciones más mexicanas: El día de muertos.'
             },
             {
                 'id': 'circo01',
-                'url': '../../images/circo_thumb_1.jpg',
+                'url': '/images/circo_thumb_1.jpg',
             },
             {
                 'id': 'circo02',
-                'url': '../../images/circo_thumb_2.jpg',
+                'url': '/images/circo_thumb_2.jpg',
             }
         ]
     },
@@ -357,37 +357,37 @@ export const obras = [
         'gallery': [
             {
                 'id': 'principe01',
-                'url': '../../images/principe_01.jpg',
+                'url': '/images/principe_01.jpg',
                 'description': 'En lo alto de una columna se alzaba la estatua de oro del Príncipe Feliz. Admirado por todos los habitantes de la ciudad que protege, se siente triste. ¿Cuál será el secreto de sus lágrimas?...'
             },
             {
                 'id': 'principe02',
-                'url': '../../images/principe_02.jpg',
+                'url': '/images/principe_02.jpg',
                 'description': 'El Príncipe Feliz narra la tierna historia de amor entre una estatua y una golondrina, dos seres compasivos ante las atrocidades de la humanidad y que a través de la solidaridad y la entrega descubren que gracias al afecto que los une son capaces de superarlo todo, incluso la muerte.'
             },
             {
                 'id': 'principe_01',
-                'url': '../../images/principe_thumb_1.jpg',
+                'url': '/images/principe_thumb_1.jpg',
             },
             {
                 'id': 'principe_02',
-                'url': '../../images/principe_thumb_2.jpg',
+                'url': '/images/principe_thumb_2.jpg',
             },
             {
                 'id': 'principe_03',
-                'url': '../../images/principe_thumb_3.jpg',
+                'url': '/images/principe_thumb_3.jpg',
             },
             {
                 'id': 'principe_04',
-                'url': '../../images/principe_thumb_4.jpg',
+                'url': '/images/principe_thumb_4.jpg',
             },
             {
                 'id': 'principe_05',
-                'url': '../../images/principe_thumb_5.jpg',
+                'url': '/images/principe_thumb_5.jpg',
             },
             {
                 'id': 'principe_06',
-                'url': '../../images/principe_thumb_6.jpg',
+                'url': '/images/principe_thumb_6.jpg',
             }
         ]
     },
@@ -407,25 +407,25 @@ export const obras = [
         'gallery': [
             {
                 'id': 'puente01',
-                'url': '../../images/puente01.jpg',
+                'url': '/images/puente01.jpg',
                 'description': 'Sin embargo, incapaz de concluir la obra decide establecer un pacto con el Diablo, quien se compromete a terminar el puente en una sola noche.'
             },
             {
                 'id': 'puente02',
-                'url': '../../images/puente02.jpg',
+                'url': '/images/puente02.jpg',
                 'description': 'Y es una de tantas veces que el diablo siendo tan diablo, no terminó totalmente la obra y perdió el trato que había concertado.'
             },
             {
                 'id': 'puente_1',
-                'url': '../../images/puente_thumb_1.jpg',
+                'url': '/images/puente_thumb_1.jpg',
             },
             {
                 'id': 'puente_2',
-                'url': '../../images/puente_thumb_2.jpg',
+                'url': '/images/puente_thumb_2.jpg',
             },
             {
                 'id': 'puente_3',
-                'url': '../../images/puente_thumb_3.jpg',
+                'url': '/images/puente_thumb_3.jpg',
             }
         ]
     }

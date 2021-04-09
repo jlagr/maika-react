@@ -9,7 +9,7 @@ const ObraButtom = ({gallery}) => {
                     gallery.map( ({id, url}) => (
                         <div className="col-md-4" key={id}>
                             <div className="card" style={{backgroundColor:'transparent'}}>        
-                                <img className="card-img-top img-fluid wow" src={url} alt={id} /> 
+                                <img className="card-img-top img-fluid wow" src={ process.env.PUBLIC_URL + url } alt={id} /> 
                             </div>
                         </div>
                     ))

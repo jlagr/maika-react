@@ -33,9 +33,9 @@ const Footer = ( { includeContact } ) => {
                         <h5>DIRECCION</h5>
                         <p>Calandrias 101, Fracc. <br></br>Silvestre Revueltas,<br></br> Durango, Dgo</p> 
                         <h5>TELEFONO</h5>
-                        <p>+52 33 3902 7092</p>
+                        <p><a href="tel:3339027092">+52 33 3902 7092</a></p>
                         <h5>EMAIL</h5>
-                        <p>contacto@maikateatro.com</p>
+                        <p><a href="mailto:contacto@maikateatro.com">contacto@maikateatro.com</a></p>
                         <div className="social-links">
                             <ul className="nav nav-item">
                                 <li>

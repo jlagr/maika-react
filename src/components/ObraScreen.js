@@ -5,6 +5,7 @@ import ObraTop from './ObraTop';
 import ObraMiddle from './ObraMiddle';
 import ObraCredits from './ObraCredits';
 import ObraButtom from './ObraButtom';
+import imgBackground from '../images/negro-large-bg.jpg';
 
 const ObraScreen = () => {
     const { id } = useParams();
@@ -13,9 +14,9 @@ const ObraScreen = () => {
     const gallery = getGallery(id);
 
     return (        
-        <div className="container-fluid fh5co-network" data-parallax="scroll" data-image-src="../../images/negro-large-bg.jpg" style={{marginTop: '-100px', backgroundRepeat: "repeat-x"}}>
+        <div className="container-fluid fh5co-network" data-parallax="scroll" data-image-src={ imgBackground } style={{marginTop: '-100px', backgroundRepeat: "repeat-x"}}>
             <div className="container">
-                <ObraTop id={id} name={name} intro={intro} more={more} mainImg={mainImg} video={video}/>
+                <ObraTop id={id} name={name} intro={intro} more={more} mainImg={ mainImg } video={video}/>
                 {
                     imagesWithText.map( (iwt, index) => <ObraMiddle iwt={iwt} index={index} key={iwt.id}/>)
                 }

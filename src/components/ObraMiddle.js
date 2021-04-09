@@ -5,7 +5,7 @@ const ObraMiddle = ({iwt, index}) => {
     const {description, url, id} = iwt;
     const image = (<div className="col-md-6">
         <figure className="wow"> 
-            <img src={url} alt={id} className="img-fluid" /> 
+            <img src={process.env.PUBLIC_URL + url} alt={id} className="img-fluid" /> 
         </figure>
     </div>);
 

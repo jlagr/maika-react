@@ -15,7 +15,7 @@ const ObraTop = ({id, name, intro, more, mainImg, video }) => {
             >
         </iframe>) :
         (<figure className="wow"> 
-            <img src={ mainImg } alt={ `main_${id}` } className="img-fluid" style={{marginTop: '50px'}}/>
+            <img src={ process.env.PUBLIC_URL + mainImg } alt={ `main_${id}` } className="img-fluid" style={{marginTop: '50px'}}/>
         </figure>);
 
         return (

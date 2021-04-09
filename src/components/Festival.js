@@ -10,7 +10,7 @@ const Festival = ( {id, city, year, name, img, url} ) => {
         
         <div className="col-md-6 pr-5 pl-5">
             <div className="card text-center wow bounceInLeft" data-wow-delay=".25s"> 
-                <img className="card-img-top rounded-circle img-fluid" src={ img } alt={ id } />
+                <img className="card-img-top rounded-circle img-fluid" src={ process.env.PUBLIC_URL + img } alt={ id } />
                 <div className="card-body mb-5">
                     <h4 className="card-title">{ name }</h4>
                     <p className="card-text">
