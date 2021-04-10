@@ -1,4 +1,4 @@
-import { festivales } from '../data/general'
+import { festivales } from '../data/festivales'
 
 export const getNacionales = () => {
     return festivales.filter(f => f.type === 'nacional').sort((a, b) => (a.year > b.year) ? 1 : -1).reverse();

@@ -1,17 +1,3 @@
-export const formacion = [
-    {
-        'year': 2020,
-        'project':'Programa de formación para nuevos titiriteros en Durango'
-    },
-    {
-        'year': 2009,
-        'project':'Recetario para cocinar muñecos animados'
-    },
-    {
-        'year': 2008,
-        'project':'Acercamiento al trabajo de títeres'
-    }
-]
 
 export const festivales = [
     {
@@ -228,7 +214,7 @@ export const festivales = [
         'year': 2014,
         'name': 'Festival Titereando en la ciudad',
         'img': '/images/default.jpg',
-        'url': ''
+        'url': 'https://www.youtube.com/watch?v=2z5z2u8USvA'
     },
 
 ]
