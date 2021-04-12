@@ -13,7 +13,7 @@ const TalleresScreen = () => {
                         <hr />
                         <p className="wow">En Maika Teatro impartimos talleres de: </p>
                         <ul>
-                            <li>Elavoración de titeres para niños, jonvenes y adultos</li>
+                            <li>Elaboración de titeres para niños, jonvenes y adultos</li>
                             <li>Expresion corporal y danza</li>
                         </ul>
                         
