@@ -17,7 +17,7 @@ function PaikamIndex() {
                         <figure className="wow bounceInDown"> 
                             <iframe 
                                 className="img-fluid" 
-                                style={{marginTop: '-30px', height: '315px'}}
+                                style={{ height: '315px' }}
                                 width="560" 
                                 height="315" 
                                 src="https://www.youtube.com/embed/OfjEo-lIOdk" 
