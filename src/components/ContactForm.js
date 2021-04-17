@@ -3,7 +3,7 @@ import React from 'react'
 function ContactForm() {
     return (
         <div className="col-md-6 footer2 wow bounceInUp" data-wow-delay=".25s" id="contact">
-            <form action="enviar.php" method="POST">
+            <form action="correo.php" method="POST">
                 <div className="form-box">          
                     <h4>CONTACTANOS</h4>
                     <table className="table table-responsive d-table">
