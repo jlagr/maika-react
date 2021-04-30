@@ -220,6 +220,7 @@ export const obras = [
         ],
         'mainImg':'/images/pintor_1.jpg',
         'imgPos': 'down',
+        'video': 'https://www.youtube.com/embed/a6RHMa3tnEg',
         'gallery': [
             {
                 'id': 'pintor01',
