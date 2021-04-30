@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll'
 import logo from '../images/logo.png';
 import paikam_banner from '../images/paikam_banner.jpg';
+import Banner from './Banner';
 
 const Navbar = () => {
     return (
@@ -28,7 +29,7 @@ const Navbar = () => {
                     </div>                    
                 </div>
             </nav>
-
+            <Banner />
             <div className="container">
                 <div className="fh5co-banner-text-box">
                     <div className="quote-box pl-5 pr-5 wow bounceInRight">
