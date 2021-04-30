@@ -5,7 +5,9 @@ const Banner = () => {
     return (
         <>
             <div className="container">
-                <img src={ bannerImg } alt='banner pintor'/> 
+                <a href="https://www.facebook.com/Maika-Teatro-430703303679301" target="_blank" rel="noreferrer">
+                    <img src={ bannerImg } alt='banner pintor'/> 
+                </a>
             </div>            
         </>
     )
