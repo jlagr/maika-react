@@ -11,17 +11,16 @@ export const FestivalesScreen = () => {
             <div className="container">
                 <div className="row festivals">
                     <div className="col-12">
-                        <div className="quote-box2 wow bounceInDown" data-wow-delay=".25s">
+                        <div className="quote-box2">
                             <h2> Nacionales </h2>
                         </div>
                     </div>
-
                     {
                         festNacionales.map( f => <Festival {...f} key={f.id}/>)
                     }
                     
                     <div className="col-12">
-                        <div className="quote-box2 wow bounceInDown" data-wow-delay=".25s">
+                        <div className="quote-box2">
                             <h2> Internacionales </h2>
                         </div>
                     </div>

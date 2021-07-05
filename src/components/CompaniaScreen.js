@@ -16,9 +16,9 @@ function CompaniaScreen() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                        <h2 className="wow bounceInRight">Maika Teatro</h2>
+                        <h2>Maika Teatro</h2>
                         <hr />
-                        <p className="wow bounceInDown">Surge en el año 2007 como proyecto de experimentación en el campo de los títeres, 
+                        <p>Surge en el año 2007 como proyecto de experimentación en el campo de los títeres, 
                         el teatro de objetos y todo recurso que pueda armonizar en escena, con espectáculos y talleres con los que ha tenido presencia en diversos estados de México, Guatemala, Honduras, Cuba, Perú, Colombia y Argentina.</p>
                     </div>
                     <div className="col-md-6">
@@ -31,11 +31,11 @@ function CompaniaScreen() {
 
             <div className="container">
                 <div className="col-sm-6 offset-sm-6">      
-                    <p className="wow bounceInRight" data-wow-delay=".25s">La compañía ha sido beneficiaria en dos ocasiones del Programa de Estímulos a la Creación y
+                    <p>La compañía ha sido beneficiaria en dos ocasiones del Programa de Estímulos a la Creación y
                         el Desarrollo Artístico (PECDA 2008, 2009), Proyecta Jalisco (2014) y del Fondo Nacional para
                         la Cultura y las Artes (FONCA, creadores escénicos categorías A y B, 2013, 2019).
                     </p>
-                    <p className="wow bounceInRight" data-wow-delay=".50s">En 2020 la agrupación trabajó en el “Proyecto de formación para nuevos titiriteros” en la
+                    <p>En 2020 la agrupación trabajó en el “Proyecto de formación para nuevos titiriteros” en la
                         ciudad de Durango y recientemente presentó su nueva producción: Pai’kam.
                     </p>
                 </div>
@@ -65,17 +65,17 @@ function CompaniaScreen() {
                     <div className="row gallery" style={{marginTop: '30px', marginBottom: '30px'}}>
                         <div className="col-md-4">
                             <div className="card">        
-                                <img className="card-img-top img-fluid wow bounceInRight"  src={ imgThumbGusano } alt='gusano'/> 
+                                <img className="card-img-top img-fluid"  src={ imgThumbGusano } alt='gusano'/> 
                             </div> 
                         </div> 
                         <div className="col-md-4">                   
                             <div className="card">        
-                                <img className="card-img-top img-fluid wow bounceInDown"  src={imgThumbGorgonia} alt='gorgonia'/>
+                                <img className="card-img-top img-fluid"  src={imgThumbGorgonia} alt='gorgonia'/>
                             </div> 
                         </div> 
                         <div className="col-md-4">                   
                             <div className="card">        
-                                <img className="card-img-top img-fluid wow bounceInLeft"  src={imgThumbPintor} alt='pintor'/> 
+                                <img className="card-img-top img-fluid"  src={imgThumbPintor} alt='pintor'/> 
                             </div>
                         </div>ß
                     </div>
