@@ -3,10 +3,11 @@ import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll'
 import logo from '../images/logo.png';
 import paikam_banner from '../images/paikam_banner.jpg';
+import paikam_video from '../images/paikam_video.mp4';
 
 const Navbar = () => {
     return (
-        <div className="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src={ paikam_banner }>
+        <div className="container-fluid pl-0 pr-0 clearfix parallax-window2">
             <nav className="navbar navbar-expand-md navbar-dark">
                 <div className="container"> 
                     {/* Brand   */}
@@ -35,6 +36,9 @@ const Navbar = () => {
                         <h2> Paik'am <br></br><span>por Maika Teatro 2021</span> </h2>
                     </div>
                 </div>
+                <video autoplay="true" loop muted playsInline autobuffer="true">
+                    <source src={ paikam_video } type="video/mp4"/>
+                </video>
             </div>
 
         </div>

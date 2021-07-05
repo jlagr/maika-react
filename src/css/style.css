@@ -41,10 +41,11 @@ a:hover {
 }
 
 .fh5co-banner-text-box {
-  position: relative;
+  position: absolute;
   max-height: 120px;
   display: inline-block;
-  margin-top: 250px;
+  margin-top: 415px;
+  margin-left: 50px;
 }
 .fh5co-banner-text-box .quote-box {
   max-width: 455px;
