@@ -44,8 +44,9 @@ a:hover {
   position: absolute;
   max-height: 120px;
   display: inline-block;
-  margin-top: 415px;
+  margin-top: 380px;
   margin-left: 50px;
+  z-index: 3;
 }
 .fh5co-banner-text-box .quote-box {
   max-width: 455px;
@@ -91,6 +92,14 @@ a:hover {
   background: transparent;
   border-color: gray;
   color: #ff8013;
+}
+
+.video-overlay {
+  height: 533px;
+  width: 1200px;
+  position: absolute;
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+  z-index: 1;
 }
 
 .fh5co-network,
