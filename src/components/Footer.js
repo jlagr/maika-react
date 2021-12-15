@@ -39,7 +39,7 @@ const Footer = ( { includeContact } ) => {
                         <div className="social-links">
                             <ul className="nav nav-item">
                                 <li>
-                                    <a href="https://www.facebook.com/maika.teatro" className="btn btn-secondary mr-1 mb-2" target="_blank" rel="noreferrer">
+                                    <a href="https://www.facebook.com/Maika-Teatro-430703303679301" className="btn btn-secondary mr-1 mb-2" target="_blank" rel="noreferrer">
                                         <img src= { facebook } alt="facebook" />
                                     </a>
                                 </li>

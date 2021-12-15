@@ -163,6 +163,15 @@ export const festivales = [
         'url': ''
     },
     {
+        'id': 'fn_19',
+        'type': 'nacional',
+        'city': 'Ciudad de México',
+        'year': 2021,
+        'name': '41 Muestra Nacional de Teatro',
+        'img': '/images/fn_19.jpg',
+        'url': 'https://mnt.inba.gob.mx/paikam-una-forma-de-origen/'
+    },
+    {
         'id': 'fi_001',
         'type': 'internacional',
         'city': 'La Habana, Cuba.',
