@@ -5,6 +5,8 @@ import ObraTop from './ObraTop';
 import ObraMiddle from './ObraMiddle';
 import ObraCredits from './ObraCredits';
 import ObraButtom from './ObraButtom';
+import GiraPaikam2022 from './GiraPaikam2022';
+import PrensaPaikam from './PrensaPaikam';
 import imgBackground from '../images/negro-large-bg.jpg';
 
 const ObraScreen = () => {
@@ -20,7 +22,17 @@ const ObraScreen = () => {
                 {
                     imagesWithText.map( (iwt, index) => <ObraMiddle iwt={iwt} index={index} key={iwt.id}/>)
                 }
-                <ObraCredits credits={credits} />
+                <ObraCredits credits={credits} obra={name} />
+                {
+                        name === "Paik'am" ? 
+                        ( 
+                            <>
+                                <GiraPaikam2022  />
+                                <PrensaPaikam />
+                            </>
+                        ) 
+                        : ''
+                }
                 <ObraButtom gallery={gallery} />
             </div>
         </div>

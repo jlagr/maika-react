@@ -12,6 +12,11 @@ function PaikamIndex() {
                         <h5 style={{color: 'black'}}>Creadores Escénicos, FONCA 2019</h5>
                         <p style={{color: 'black'}}>Inspirado en el origen mitológico de Durango desde la cosmogonía Tepehuana.<br></br>
                         Un espectaculo que combina multiples disiplinas escenicas • Títeres • Danza • Sombras • Musica • Para jóvenes y adultos</p>
+                        <p className="paikam_link"> 
+                            <a href="https://">Gira 2022</a><label> • </label> 
+                            <a href="https://">Prensa</a><label> • </label> 
+                            <a href="https://">Elenco</a>
+                            </p>
                     </div>
                     <div className="col-md-6">
                         <figure className="wow bounceInRight"> 

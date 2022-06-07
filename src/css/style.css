@@ -314,6 +314,36 @@ a:hover {
   margin-bottom: 20px;
 }
 
+
+.bio-header {
+  text-align: center;
+  align-content: center;
+}
+.bio-image-cropper {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 40%;
+}
+
+.bio-img {
+  display: inline;
+  margin: -3px -45px auto;
+  height: 100%;
+  width: auto;
+}
+
+.bio-name {
+ font-size: 30px;
+}
+
+.bio-text {
+  background-image: -webkit-linear-gradient(90deg, #000000 5%, #ffffff 100%);
+  background-image: -moz-linear-gradient(90deg, #000000 5%, #ffffff 100%);
+  background-image: -ms-linear-gradient(90deg, #000000 5%, #ffffff 100%);
+  color: white;
+}
 .container a {
   color: #fff;
 }
@@ -413,6 +443,26 @@ footer::before {
   left: 0;
 }
 
+.paikam_link {  
+  color: #ff8013;
+  font-size: 16px;
+}
+
+.paikam_link_link { 
+  color: #ff8013;
+  font-size: 16px;
+}
+
+.paikam_link a {  
+  color: #ff8013;
+  cursor: pointer;
+}
+
+.paikam_link label{  
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
 @media (max-width: 1199px) {
   .fh5co-content-box .pr-0 img {
     margin-top: -107px;
@@ -458,5 +508,4 @@ footer::before {
   .footer2 .form-box {
     margin-top: 0 !important;
   }
-
 }

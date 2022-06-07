@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 const ObraTop = ({id, name, intro, more, mainImg, video }) => {
     
@@ -25,6 +26,19 @@ const ObraTop = ({id, name, intro, more, mainImg, video }) => {
                     <hr />
                     <p className="wow">{ intro }</p>
                     <p className="wow">{ more }</p>
+                    {
+                        name === "Paik'am" ? (
+                            <p className="paikam_link"> 
+                                <Link activeClass="active" style={{color: "#ff8013"}} to="giraPaikam2022" spy={true} smooth={true} duration={500}>Gira 2022 </Link>
+                                <label> • </label> 
+                                <Link activeClass="active" style={{color: "#ff8013"}} to="prensaPaikam" spy={true} smooth={true} duration={500}>Prensa </Link>
+                                <label> • </label> 
+                                <Link activeClass="active" style={{color: "#ff8013"}} to="credits" spy={true} smooth={true} duration={500}>Elenco </Link>
+                            </p>
+                        )
+                        : ''
+                    }
+                    
                 </div>
                 <div className="col-md-6">
                     {mainImage}

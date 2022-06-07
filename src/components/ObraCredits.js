@@ -1,15 +1,38 @@
 import React from 'react'
 
-const ObraCredits = ({credits}) => {
+const ObraCredits = ({credits, obra}) => {
     return (
         <>
-            <h2 className="wow">Creditos</h2>
+            <h2 className="wow" id="credits">Creditos</h2>
             <hr />
             <div className="row">
                 {
-                    credits.map( ({rol, name}) => (
+                    credits.map( ({id, rol, name, elenco}) => (
                         <div className="col-md-4" key={rol}>
-                            <p className="wow">• {rol}: {name}</p>
+                            {
+                                obra === "Paik'am" ? (
+                                    rol === "Elenco" ?
+                                    (
+                                        <p className="paikam_link"> 
+                                            • {rol}:
+                                            {
+                                                elenco.map(({id, name}) => <a key={id} className="nav-link" href={`/pages/bio/${ id }`}>{name}</a>)
+                                            }
+                                        </p>
+                                    )
+                                    : 
+                                    id > 0 ?
+                                        (<p className="paikam_link"> 
+                                            • {rol}: <a className="nav-link" href={`/pages/bio/${ id }`}>{name}</a>
+                                        </p>)
+                                    :
+                                        <p className="paikam_link"> 
+                                            • {rol}:<br /> {name}
+                                        </p>
+                                )
+                                : <p className="wow">• {rol}: <br />{name}</p>
+                            }
+                            
                         </div>
                     ))
                 }

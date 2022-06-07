@@ -6,44 +6,103 @@ export const obras = [
         'more':'“Que todo el mundo conozca nuestra historia, antes que el polvo entierre nuestro origen”',
         'credits': [
             {
+                'id': 1,
                 'rol': 'Director',
                 'name': 'Alfredo Payán'
             },
             {
+                'id': 2,
                 'rol': 'Producción',
                 'name': 'Sara Don y Alfredo Payán'
             },
             {
+                'id': 3,
                 'rol': 'Asistente de dirección',
                 'name': 'Noemí Mendiola Egure'
             },
             {
+                'id': 14,
+                'rol': 'Asistente de Audio',
+                'name': 'Luis Fernando Vallejo García'
+            },
+            {
+                'id': 15,
+                'rol': 'Asistente de iluminación',
+                'name': 'Daniel Diaz Téllez'
+            },
+            {
+                'id': 0,
                 'rol': 'Narraturgia',
                 'name': 'Gilberto Lastra y Alfredo Payán'
             },
             {
+                'id': 0,
                 'rol': 'Elenco',
-                'name': 'Melissa Zaragoza, Karen Covarrubias, Brian Smithe, Héctor Morán, Francisco Ávila Casas, Erik Martínez, Héctor Manuel Arredondo'
+                'elenco' : [
+                    {
+                        'id': 4,
+                        'name': 'Melissa Zaragoza'
+                    },
+                    {
+                        'id': 5,
+                        'name': 'Karen Covarrubias'
+                    },
+                    {
+                        'id': 6,
+                        'name': 'Brian Smithe'
+                    },
+                    {
+                        'id': 7,
+                        'name': 'Héctor Morán'
+                    },
+                    {
+                        'id': 8,
+                        'name': 'Francisco Ávila Casas'
+                    },
+                    {
+                        'id': 9,
+                        'name': 'Erik Martínez'
+                    },
+                    {
+                        'id': 10,
+                        'name': 'Héctor Manuel Arredondo'
+                    },
+                ]
             },
             {
+                'id': 11,
                 'rol': 'Narrador',
                 'name': 'Mario Montaño'
             },
             {
+                'id': 12,
                 'rol': 'Música Original',
                 'name': 'Roberto García'
             },
             {
+                'id': 0,
                 'rol': '“El niño que saltó la luna”',
                 'name': 'Letra: Héctor Manuel Arredondo • Música: Roberto García'
             },
             {
+                'id': 0,
                 'rol': '"Que chula estrella”',
-                'name': 'Canción del dominio popular • Interpretan: “Mujeres Cardencheras” Evangelina Nuñez, Catalina Bañuelos, Guadalupe Ríos y Alma Montenegro • Arreglos musicales: Roberto García'
+                'name': 'Canción del dominio popular • Interpretan: “Mujeres Cardencheras” Evangelina Nuñez, Catalina Bañuelos, Guadalupe Ríos y Alma Montenegro'
             },
             {
+                'id': 12,
                 'rol': 'Arreglos Musicales',
-                'name': 'Roberto García • Diseño de imagen: Pepo Almonte • Diseño de títeres: Edwin Salas'
+                'name': 'Roberto García'
+            },
+            {
+                'id': 0,
+                'rol': 'Diseño de imagen',
+                'name': 'Pepo Almonte'
+            },
+            {
+                'id': 13,
+                'rol': 'Diseño de títeres',
+                'name': 'Edwin Salas'
             }
 
         ],

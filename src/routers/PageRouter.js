@@ -8,7 +8,7 @@ import ObrasGridScreen from '../components/ObrasGridScreen'
 import PagesNav from '../components/PagesNav'
 import ProyectosScreen from '../components/ProyectosScreen'
 import TalleresScreen from '../components/TalleresScreen'
-
+import BioScreen from '../components/BioScreen'
 function PageRouter() {
     return (
         <>
@@ -22,6 +22,7 @@ function PageRouter() {
                     <Route exact path="/pages/proyectos" component={ProyectosScreen} />
                     <Route exact path="/pages/festivales" component={FestivalesScreen} />
                     <Route exact path="/pages/talleres" component={TalleresScreen} />
+                    <Route exact path="/pages/bio/:id" component={BioScreen} />
 
                     <Redirect to="/" />
                 </Switch>
