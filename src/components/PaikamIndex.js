@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link';
 
 function PaikamIndex() {
     return (
@@ -13,10 +14,10 @@ function PaikamIndex() {
                         <p style={{color: 'black'}}>Inspirado en el origen mitológico de Durango desde la cosmogonía Tepehuana.<br></br>
                         Un espectaculo que combina multiples disiplinas escenicas • Títeres • Danza • Sombras • Musica • Para jóvenes y adultos</p>
                         <p className="paikam_link"> 
-                            <a href="https://">Gira 2022</a><label> • </label> 
-                            <a href="https://">Prensa</a><label> • </label> 
-                            <a href="https://">Elenco</a>
-                            </p>
+                            <HashLink smooth to='/pages/obras/Paikam/#giraPaikam2022' > Gira 2022 </HashLink><label> • </label> 
+                            <HashLink smooth to='/pages/obras/Paikam/#prensaPaikam' > Prensa </HashLink><label> • </label> 
+                            <HashLink smooth to='/pages/obras/Paikam/#credits' > Elenco </HashLink>
+                        </p>
                     </div>
                     <div className="col-md-6">
                         <figure className="wow bounceInRight"> 
