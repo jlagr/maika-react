@@ -463,6 +463,23 @@ footer::before {
   margin-right: 7px;
 }
 
+.paikam-press-card {
+
+}
+
+.paikam-press-card-title {
+  font-size: 16px;
+  color: #ffffff !important;
+}
+
+.paikam-press-card-subtitle {
+  font-size: 12px;
+}
+
+.paikam-press-card-link {
+  color: #ff8013 !important;
+}
+
 @media (max-width: 1199px) {
   .fh5co-content-box .pr-0 img {
     margin-top: -107px;
@@ -476,6 +493,7 @@ footer::before {
     top: 20%;
   }
 }
+
 @media (max-width: 767px) {
   body nav .navbar-nav {
     margin-left: 0 !important;
