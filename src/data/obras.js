@@ -52,10 +52,6 @@ export const obras = [
                         'name': 'Brian Smithe'
                     },
                     {
-                        'id': 7,
-                        'name': 'Héctor Morán'
-                    },
-                    {
                         'id': 8,
                         'name': 'Francisco Ávila Casas'
                     },
